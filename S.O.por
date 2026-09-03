@@ -7,7 +7,11 @@ programa
         escreva("Digite a nota do aluno: ")
         leia(nota)
 
-        se (nota >= 6.0)
+        se (nota >= 9.0)
+        {
+            escreva("ALUNO DESTAQUE")
+        }
+        senao se (nota >= 6.0)
         {
             escreva("APROVADO")
         }
@@ -26,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 357; 
+ * @POSICAO-CURSOR = 446; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
